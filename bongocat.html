@@ -1,0 +1,32 @@
+
+  <!doctype html>
+  <html lang="es-ES">
+  <head>
+    <style> </style>
+    <script>
+
+      var bleep = new Audio ();
+      bleep.src = "sounds/Bongo Sound Effect Ringtone.mp3" 
+      
+      </script>
+    <meta charset="utf-8">
+    <title>toggle demo</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="#" onmousedown="bleep.play()" >
+      </nav>
+  <img src="images/notoca.png" alt="no toca" class="center">
+  <img src="images/tocabongo.png" alt="toca" style="display: none" class="center">
+   
+  <script>
+  $("img").click(function() {
+    $("img").toggle();
+  });
+  </script>
+   
+  </body>
+  </html>
+
+
